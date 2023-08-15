@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <title>The Swarm</title>
+</head>
+
+<body>
+  <header>
+  </header>
+  <main class="container-fluid bg-dark text-center">
+    <section class="row bg-dark p-5" id="location">
+      <div class="border location-card col-4 p-4 text-light">
+        <h2 class="fs-5">SCHOOL</h2>
+        <p id="🏤">LOCATION</p>
+        <button class="btn btn-warning" onclick="attackLocation('🏤')">Attack</button>
+      </div>
+      <div class="border location-card col-4 p-4 text-light">
+        <h2 class="fs-5">HOSPITAL</h2>
+        <p id="🏥">LOCATION</p>
+        <button class="btn btn-warning" onclick="attackLocation('🏥')">Attack</button>
+      </div>
+      <div class="border location-card col-4 p-4 text-light">
+        <h2 class="fs-5">FACTORY</h2>
+        <p id="🏭">LOCATION</p>
+        <button class="btn btn-warning" onclick="attackLocation('🏭')">Attack</button>
+      </div>
+    </section>
+    <section class="row bg-dark p-5" id="location">
+      <div class="border location-card col-4 p-4 text-light">
+        <h2 class="fs-5">OFFICE</h2>
+        <p id="🏢">LOCATION</p>
+        <button class="btn btn-warning" onclick="attackLocation('🏢')">Attack</button>
+      </div>
+      <div class="border location-card col-4 p-4 text-light">
+        <h2 class="fs-5">HOSPITAL</h2>
+        <p id="🏣">GROCERY STORE</p>
+        <button class="btn btn-warning" onclick="attackLocation('🏣')">Attack</button>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>
